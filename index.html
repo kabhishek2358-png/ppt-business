@@ -9,7 +9,48 @@
     <title>PPT Business</title>
     <link rel="stylesheet" href="style.css">
 </head>
+<script>
+function showSample(type) {
+  if (type === "Business PPT") {
+    window.open("sample of business ppt or more.png", "_blank");
+  } else {
+    alert("Sample coming soon!");
+  }
+}
+    function submitOrder(event) {
+  event.preventDefault();
 
+  const name = document.getElementById("customerName").value;
+
+  alert("Thank you, " + name + "! Your PPT order request has been received.");
+
+  event.target.reset();
+}
+</script>
+    <section id="order-form">
+  <h2>📋 Order Your PPT</h2>
+  <p>Fill the form and tell us about your PPT requirement.</p>
+
+  <form onsubmit="submitOrder(event)">
+    <input type="text" id="customerName" placeholder="Your Name" required>
+
+    <input type="email" id="customerEmail" placeholder="Your Email" required>
+
+    <select id="pptType" required>
+      <option value="">Select PPT Type</option>
+      <option>College / Student PPT</option>
+      <option>Seminar PPT</option>
+      <option>Business PPT</option>
+      <option>Project PPT</option>
+    </select>
+
+    <textarea id="pptRequirement"
+      placeholder="Tell us about your PPT requirement"
+      rows="5" required></textarea>
+
+    <button type="submit">Send Order Request</button>
+  </form>
+</section>
 <body>
 
     <!-- Navigation Bar -->
