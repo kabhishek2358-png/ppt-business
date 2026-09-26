@@ -1062,3 +1062,48 @@ footer {
   border-radius: 10px;
   margin-bottom: 18px;
 }
+#order-form {
+  padding: 60px 20px;
+  text-align: center;
+  background: #f5f7ff;
+}
+
+#order-form h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+#order-form p {
+  margin-bottom: 30px;
+}
+
+#order-form form {
+  max-width: 600px;
+  margin: auto;
+}
+
+#order-form input,
+#order-form select,
+#order-form textarea {
+  width: 100%;
+  padding: 14px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+#order-form button {
+  padding: 14px 30px;
+  border: none;
+  border-radius: 8px;
+  background: #111cff;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#order-form button:hover {
+  opacity: 0.85;
+}
