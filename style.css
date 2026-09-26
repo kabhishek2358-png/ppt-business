@@ -835,3 +835,32 @@ nav a:hover {
   background-color: #128C7E;
   transform: translateY(-2px);
 }
+#order {
+  text-align: center;
+  padding: 80px 20px;
+  background: #f5f7ff;
+}
+
+#order h2 {
+  font-size: 36px;
+  margin-bottom: 15px;
+}
+
+.order-box {
+  max-width: 500px;
+  margin: 30px auto;
+  padding: 30px;
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+.order-box h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.order-box p {
+  margin: 12px 0;
+  font-size: 17px;
+}
