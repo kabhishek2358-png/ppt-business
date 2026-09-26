@@ -908,3 +908,38 @@ nav a:hover {
   margin: 12px 0;
   font-size: 17px;
 }
+#reviews {
+  text-align: center;
+  padding: 80px 20px;
+  background: #f5f7ff;
+}
+
+#reviews h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+.reviews-container {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.review-card {
+  width: 280px;
+  padding: 25px;
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+.review-card h3 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.review-card p {
+  margin: 10px 0;
+  line-height: 1.5;
+}
