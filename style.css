@@ -1011,3 +1011,47 @@ footer {
   font-size: 14px;
   opacity: 0.8;
 }
+#portfolio {
+  text-align: center;
+  padding: 80px 20px;
+  background: #f5f7ff;
+}
+
+#portfolio h2 {
+  font-size: 36px;
+  margin-bottom: 15px;
+}
+
+#portfolio > p {
+  margin-bottom: 40px;
+  font-size: 17px;
+}
+
+.portfolio-container {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.portfolio-card {
+  width: 280px;
+  padding: 30px 20px;
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+}
+
+.portfolio-card:hover {
+  transform: translateY(-8px);
+}
+
+.portfolio-card h3 {
+  font-size: 21px;
+  margin-bottom: 15px;
+}
+
+.portfolio-card p {
+  line-height: 1.5;
+}
